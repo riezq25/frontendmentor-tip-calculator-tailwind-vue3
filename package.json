@@ -1,0 +1,20 @@
+{
+  "name": "frontendmentor-tip-calculator-tailwind-vue3",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.19"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.4.1",
+    "autoprefixer": "^10.3.6",
+    "@types/tailwindcss": "^2.2.1",
+    "tailwindcss": "^2.2.16",
+    "@vitejs/plugin-vue": "^1.9.2",
+    "vite": "^2.6.2"
+  }
+}
