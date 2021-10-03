@@ -11,7 +11,7 @@
   >
     <!-- logo -->
     <div class="mb-10">
-      <img src="../images/logo.svg" />
+      <img src="../images/logo.svg" alt="logo"/>
     </div>
 
     <!-- calc -->
@@ -30,10 +30,11 @@
         <div class="text-neutral-cyan-dark-grayish-1 font-bold p-4">
           <!-- form -->
           <div class="flex flex-col mb-10">
-            <span class="mb-2">Bill</span>
+            <label for="bill" class="mb-2">Bill</label>
             <div class="calc-input">
-              <span><img src="../images/icon-dollar.svg" /></span>
+              <span><img src="../images/icon-dollar.svg" alt="dollar-icon"/></span>
               <input
+              id="bill"
                 class="person-input input"
                 type="number"
                 dir="rtl"
@@ -45,7 +46,7 @@
 
           <!-- % tip -->
           <div class="flex flex-col mb-10">
-            <span class="mb-4">Select Tip %</span>
+            <label for="tip" class="mb-4">Select Tip %</label>
             <div
               class="
                 grid
@@ -91,6 +92,7 @@
               </button>
 
               <input
+              id="tip"
                 class="input-tip input"
                 type="number"
                 dir="rtl"
@@ -103,10 +105,11 @@
 
           <!-- num people -->
           <div class="flex flex-col">
-            <span class="mb-2">Number of People</span>
+            <label for="num-person" class="mb-2">Number of People</label>
             <div class="calc-input">
-              <span><img src="../images/icon-person.svg" /></span>
+              <div><img src="../images/icon-person.svg" alt="person-icon"/></div>
               <input
+              id="num-person"
                 class="person-input input"
                 type="number"
                 dir="rtl"
