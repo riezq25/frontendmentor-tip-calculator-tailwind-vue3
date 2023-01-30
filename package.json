@@ -10,7 +10,7 @@
     "vue": "^3.2.19"
   },
   "devDependencies": {
-    "@headlessui/vue": "^1.4.1",
+    "@headlessui/vue": "^1.7.8",
     "autoprefixer": "^10.3.6",
     "@types/tailwindcss": "^2.2.1",
     "tailwindcss": "^2.2.16",
